@@ -1,4 +1,4 @@
-# test							![MIT](https://img.shields.io/badge/license-MIT-green)
+# test	![UNLICENSE](https://img.shields.io/badge/License-Unlicensed-lightgrey)
 
 ## Description
 
@@ -27,4 +27,9 @@ test
 ## Test
 
 test
+
+ ## Questions
+
+GitHub: https://github.com/Derjbass
+E-mail: bigfarts@blowhard.gov
 

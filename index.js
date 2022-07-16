@@ -5,7 +5,7 @@ const fs = require('fs')
 const fName = 'README.md';
 
 // TODO: Create an array of questions for user input
-const questions = ['Type in the title of the project?: ', 'Type in a description of the project.: ', 'Type in the installation instructions.: ', 'Type in the usage information.: ', 'Type in the contribution guidelines.: ', 'Type in the test instructions.: ', 'Select which license to apply.: '];
+const questions = ['Type in the title of the project?: ', 'Type in a description of the project.: ', 'Type in the installation instructions.: ', 'Type in the usage information.: ', 'Type in the contribution guidelines.: ', 'Type in the test instructions.: ', 'Select which license to apply.: ', 'Input your GitHub username: ', 'Input your email address: '];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -53,6 +53,16 @@ function init() {
             name: 'license',
             message: questions[6],
             choices: ['MIT', 'Apache', 'Unlicensed', 'No License']
+        },
+        {
+            type: 'input',
+            name: 'userName',
+            message: questions[7]
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: questions[8]
         },
 ]).then((data) => {
     writeToFile(fName, data);
