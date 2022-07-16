@@ -1,38 +1,49 @@
-# test	![APACHE](https://img.shields.io/badge/license-Apache%202-blue)
+# Professional-README-Generator	![UNLICENSE](https://img.shields.io/badge/License-Unlicensed-lightgrey)
 
 ## Description
 
-test
+This application creates a README.md file by using the inputs supplied by the user to fill in necessary sections of the README
 
 ## Table of Contents
 
-(put table of contents data here later)
+--[Installation](#installation)
+
+--[Usage](#usage)
+
+--[Contribution](#contribution)
+
+--[License](#license)
+
+--[Test](#test)
+
+--[Questions](#questions)
 
 ## Installation
 
-test
+Clone this repository and run the index.js file through a command prompt window and answer the questions
 
 ## Usage
 
-test
+Answer the title, description, installation, usage, contribution, test, license, github, email questions and the application will populate those fields with what was supplied
+![PRG0](https://user-images.githubusercontent.com/104521080/179371096-459992db-b66b-4220-80b1-351aa0901e5a.PNG)
 
 ## Contribution
 
-test
+I can be contacted in the questions section about any contributions or you may clone and make any contributions you see fit to make it work for yourself
 
 ## License
 
-link: https://choosealicense.com/licenses/apache-2.0/
+link: https://choosealicense.com/licenses/unlicense/
 
-This application is covered under the Apache License 2.0.
+This application is covered under The Unlicense.
 
 ## Test
 
-test
+Run the file through a command prompt window and test the functionality
 
  ## Questions
 
 GitHub: https://github.com/Derjbass
 
-E-mail: test@test.com
+E-mail: derek.j.bass@gmail.com
 
