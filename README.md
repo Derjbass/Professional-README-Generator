@@ -1,4 +1,4 @@
-# test	![UNLICENSE](https://img.shields.io/badge/License-Unlicensed-lightgrey)
+# test	![APACHE](https://img.shields.io/badge/license-Apache%202-blue)
 
 ## Description
 
@@ -22,7 +22,9 @@ test
 
 ## License
 
- (license info here)
+link: https://choosealicense.com/licenses/apache-2.0/
+
+This application is covered under the Apache License 2.0.
 
 ## Test
 
@@ -31,5 +33,6 @@ test
  ## Questions
 
 GitHub: https://github.com/Derjbass
-E-mail: bigfarts@blowhard.gov
+
+E-mail: test@test.com
 
