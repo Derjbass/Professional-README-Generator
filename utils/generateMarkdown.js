@@ -45,21 +45,21 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}\t${renderLicenseBadge(data.license)}\n\n
-    ## Description\n\n${data.description}\n\n
-    ## Table of Contents\n\n
-    --[Installation](#installation)\n\n
-    --[Usage](#usage)\n\n
-    --[Contribution](#contribution)\n\n
-    --[License](#license)\n\n
-    --[Test](#test)\n\n
-    --[Questions](#questions)\n\n
-    ## Installation\n\n${data.installation}\n\n
-    ## Usage\n\n${data.usage}\n\n
-    ## Contribution\n\n${data.contribution}\n\n
-    ## License\n\nlink: ${renderLicenseLink(data.license)}\n\n${renderLicenseSection(data.license)}\n\n
-    ## Test\n\n${data.test}\n\n 
-    ## Questions\n\nGitHub: https://github.com/${data.userName}\n\nE-mail: ${data.email}
+  return `# ${data.title}\t\t${renderLicenseBadge(data.license)}
+## Description\n${data.description}
+## Table of Contents
+--[Installation](#installation)\n
+--[Usage](#usage)\n
+--[Contribution](#contribution)\n
+--[License](#license)\n
+--[Test](#test)\n
+--[Questions](#questions)\n
+## Installation\n${data.installation}
+## Usage\n${data.usage}
+## Contribution\n${data.contribution}
+## License\nlink: ${renderLicenseLink(data.license)}\n${renderLicenseSection(data.license)}
+## Test\n${data.test}
+## Questions\nGitHub: https://github.com/${data.userName}\nE-mail: ${data.email}
 
 `;
 }
